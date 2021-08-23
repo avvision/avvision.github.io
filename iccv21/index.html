@@ -71,6 +71,7 @@
 
     div.pc {
     text-align: center;
+    /* position: relative; */
     /* margin-bottom: -5rem; */
     /* text-justify: inter-word; */
     }  
@@ -235,23 +236,20 @@
         <br>
         <div class="pc">
             <h6>Program Committee</h6>
-            <!-- <div> -->
                 
                 <div class="pc-member">
-                
                     <h4 style="float: left">
-
                     David J. Kriegman
                     <span>
                     UC San Diego
                     </span>
-                    Walterio Mayol-Cuevas
-                    <span>
-                    Uni. of Bristol & Amazon
-                    </span>
                     Qijun Chen 
                     <span>
                     Tongji University
+                    </span>
+                    Walterio Mayol-Cuevas
+                    <span>
+                    Uni. of Bristol & Amazon
                     </span>
                     Xinchen Yan 
                     <span>
@@ -264,11 +262,11 @@
                     Ming Liu
                     <span>
                     HKUST
-                    </span>  
-                    Xiao-Yang Liu 
+                    </span> 
+                    Jianping He
                     <span>
-                    Columbia University
-                    </span>  
+                    SJTU  
+                    </span> 
                     Junhao Xiao
                     <span>
                     NUDT
@@ -285,12 +283,10 @@
                     <span>
                     McGill University
                     </span> 
-                    Shivam Gautam
+                    Yue Wang
                     <span>
-                    Aurora  
+                    Zhejiang University
                     </span>
-
-
                     </h4>
 
 
@@ -300,11 +296,10 @@
                 </div>
 
                 <div class="pc-member">
-
                     <h4 style="float: left">
-                        Yue Wang
+                        Joshua Manela
                         <span>
-                        Zhejiang University
+                        Waymo
                         </span>
                         Dequan Wang
                         <span>
@@ -329,6 +324,10 @@
                         Peng Yun
                         <span>
                         HKUST
+                        </span>
+                        Meng Fan
+                        <span>
+                        Aurora
                         </span>  
                         Hengli Wang
                         <span>
@@ -338,10 +337,6 @@
                         <span>
                         SmartMore 
                         </span>  
-                        Sebastian Bujwid
-                        <span>
-                        KTH
-                        </span>  
                         Henggang Cui 
                         <span>
                         Motional
@@ -349,10 +344,6 @@
                         Zhuwen Li
                         <span>
                         Nuro Inc. 
-                        </span> 
-                        Weikai Chen
-                        <span>
-                        Tencent America
                         </span> 
                     </h4>
 
@@ -364,10 +355,13 @@
 
 
                     <h4 style="float: left">
-
-                        Jianping He
+                        Shangxuan
                         <span>
-                        SJTU  
+                        Waymo
+                        </span>
+                        Lingyao Zhang
+                        <span>
+                        Aurora  
                         </span>
                         Carl Wellington
                         <span>
@@ -377,21 +371,21 @@
                         <span>
                         HKUST
                         </span>
+                        Shivam Gautam
+                        <span>
+                        Aurora  
+                        </span>
+                        Weikai Chen
+                        <span>
+                        Tencent America
+                        </span> 
                         Peide Cai
                         <span>
                         HKUST
                         </span>
-                        Anthony Tompkins
-                        <span>
-                        Uni. of Sydney
-                        </span>
                         Bohuan Xue
                         <span>
                         HKUST
-                        </span>  
-                        Yehya Abouelnaga
-                        <span>
-                        TUM
                         </span>  
                         Slobodan Vucetic 
                         <span>
@@ -409,12 +403,6 @@
                         <span>
                         UC Berkeley
                         </span> 
-                        Vladan Radosavljevic
-                        <span>
-                        Spotify
-                        </span> 
-
-    
                     </h4>
 
 
@@ -520,8 +508,8 @@
 
 </section>
 
-<br>
-<img src="./img/cfp.png" alt="Trulli" width="700" class="center">
+<!-- <br> -->
+<!-- <img src="./img/cfp.png" alt="Trulli" width="700" class="center"> -->
 
 
 
@@ -541,8 +529,6 @@
     </div>
 
 </section>
-
-
 
 <div class="container" style="margin-top: 5rem">
     <h2>Contact</h2>
@@ -599,7 +585,33 @@
 </div>
 
 
+<!-- Messenger Chat plugin Code -->
+<div id="fb-root"></div>
 
+<!-- Your Chat plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "102524081821979");
+  chatbox.setAttribute("attribution", "biz_inbox");
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v11.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 
 <footer class="footer">
     <div class="container">
