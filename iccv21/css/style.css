@@ -65,6 +65,16 @@ body {
 	margin:0px 0px 0px 0px;
 	height: 100%;
 }
+h1 {
+	font-size: 2.3rem;
+	color: #888888;
+	font-family: 'Montserrat', sans-serif;
+	
+	letter-spacing: -0.0625rem;
+	text-align: left;
+}
+
+
 h2{
 
 	/*font-size:34px;*/
