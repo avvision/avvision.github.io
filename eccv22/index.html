@@ -41,7 +41,7 @@
     h0.Program {
         color: black;
         font-size: 16px;
-        text-align: right;
+        text-align: left;
     }
     h1.Program {
         color: black;
@@ -85,7 +85,19 @@
     /* margin-bottom: -5rem; */
     /* text-justify: inter-word; */
     }  
+    div.start {
+    text-align: left;
 
+    font-size: 0.8rem;
+    /* position: relative; */
+    margin-bottom: 15rem;
+    /* text-justify: inter-word; */
+    }
+    div.img {
+        float: right;
+        width: 15rem;
+        height: 15rem;
+    }
 </style>
 
 
@@ -94,18 +106,17 @@
 <body>
 <header class="header" id="header">
         
-        <div>
-        <figure class="logo animated fadeInDown delay-07s">
-            <a href="https://avvision.xyz/"><img src="img/logo.png" class="right"></a>
-        </figure>
-        <br>
+    <div class="start">
+        <a href="https://avvision.xyz/"><div class="img"><img src="img/logo.png" class="right"></div></a>
 
         <h0 class="animated fadeInDown delay-07s" >3rd AVVision Workshop</h0>
         <ul class="we-create animated fadeInUp delay-1s">
             <br>
             <h0>ECCV 2022 -- TBD</h0>
         </ul>
-        </div>
+    </div>
+
+    <br>
 
 </header>
 
