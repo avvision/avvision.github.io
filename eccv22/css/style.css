@@ -150,13 +150,14 @@ p{
 	background-size: cover;
 	/* height: 30%; */
 	width:100%;
-	padding: 9%;
+	padding: 10%;
 	/* background:url(../img/bg.png) left top repeat; */
 	/* padding:100px 0; */
 	/* position: fixed !important; */
 }
 .logo{
 	width:20%;
+	/* margin: 9%; */
 	/* margin:0 auto 35px; */
 }
 .header h1{
@@ -165,7 +166,7 @@ p{
 	font-size:5rem;
 	font-weight:600;
 	/* letter-spacing: -1px; */
-	margin:0 0 0px 0 ;
+	margin:0 0 0 0;
 	/* color:#cbced0; */
 	color:#ffffff;
 }
