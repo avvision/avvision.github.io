@@ -65,6 +65,16 @@ body {
 	margin:0px 0px 0px 0px;
 	height: 100%;
 }
+
+h0 {
+	font-size: 4.0em;
+	color: #888888;
+	font-family: 'Montserrat', sans-serif;
+	
+	letter-spacing: -0.0625rem;
+	text-align: left;
+}
+
 h1 {
 	font-size: 2.3rem;
 	color: #888888;
@@ -159,6 +169,17 @@ p{
 	width:20%;
 	/* margin: 9%; */
 	/* margin:0 auto 35px; */
+}
+
+.header h0{
+	font-family: 'Montserrat',sans-serif;
+	/*font-size:50px;*/
+	font-size:3rem;
+	font-weight:600;
+	/* letter-spacing: -1px; */
+	margin:0 0 0px 0 ;
+	/* color:#cbced0; */
+	color:#ffffff;
 }
 .header h1{
 	font-family: 'Montserrat',sans-serif;
